@@ -1,0 +1,423 @@
+html,
+body{
+    max-width: 1400px;
+    min-width: 1400px;
+    margin: auto;
+    background-color: #f5f3ef;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    cursor: pointer;
+}
+
+.logo{
+    margin: 20px 104px;
+    float: left;
+}
+.navlist{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 50px;
+}
+.navlist li{
+    float: left;
+    position: relative;
+    margin: 31px 17.5px 45px 17.5px;
+
+}
+
+
+.navlist li:hover{
+    color: white;
+    background-color: black;
+}
+.nav{
+    height: 85px;
+    width: 100%;
+    box-shadow: 0px 5px 5px -5px grey;
+}
+.mission{
+    width: 100%;
+    height: 900px;
+    padding-top: 150px;
+}
+.ourmission{
+    float: left;
+    width: 40%;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.ourmission h1{
+    color: #99182a;
+    font-size: 93px;
+    line-height: 90.68px;
+    width: 416px;
+    height: 273px;
+    font-weight: 700;
+}
+.ourmission p{
+    width: 487px;
+    height: 102px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400px;
+}
+.learnmore{
+    width: 192px;
+    height: 56px;
+    background-color: #99182a;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 6px;
+    border: none;
+}
+.missionpic{
+    float: right;
+    width: 40%;
+    margin-right: 100px;
+    height: 700px;
+}
+.picback{
+background-color: #99182a;
+height: 301px;
+width: 590px;
+border-radius: 4px;
+position: relative;
+top: 409px;
+}
+.picback img{
+    width: 487px;
+    height: 557px;
+    border-radius: 4px;
+    margin-left: 51px;
+    position: relative;
+    top: -309px;
+}
+.why{
+    width: 100%;
+    height: 1000px;
+}
+.whychoose{
+    width: 40%;
+    height: 800px;
+    margin-left: 100px;
+    float: left;
+}
+.whyhead{
+    width: 500px;
+    height: 65px;
+    font-size: 60px;
+    line-height: 76px;
+    color: black;
+}
+.whybody{
+    width: 505px;
+    height: 180px;
+    opacity: 0.7;
+    color: #707070;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.whychoose img{
+    width: 529px;
+    height: 386px;
+    border-radius: 4px;
+}
+.whytext{
+    float: right;
+    width: 40%;
+    height: 850px;
+    margin-right: 100px;
+}
+.num{
+    width: 70px;
+    height: 52px;
+    font-size: 46px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #9f2122;
+    margin-bottom: 0px;
+}
+.numtext{
+    width: 514px;
+    height: 150px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #707070;
+}
+.company{
+    width: 1005;
+    height: 830px;
+    background-color: black;
+    color: white;
+}
+.current{
+    float: left;
+    margin-left: 100px;
+    width: 30%;
+    height: 800px;
+}
+.opening{
+    width: 374px;
+    height: 177px;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.opentext{
+    width: 336px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.position{
+    width: 55%;
+    height: 580px;
+    float: right;
+    margin-right: 100px;
+    border: 1px solid #99182a;
+    margin-top: 125px;
+}
+.postr{
+    width: 100%;
+    height: 145px;
+    background-color: #99182a;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 520px 300px;
+}
+.postr ul{
+    margin: 0px 15px;
+    padding-top: 56px;
+    width: 310px;
+    font-size: 20px;
+}
+.postr ul li::marker{
+    font-size: 31px;
+}
+.apply{
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 44px;
+}
+.postb{
+    width: 100%;
+    height: 145px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 520px 300px;
+}
+.postb ul{
+    margin: 0px 15px;
+    padding-top: 56px;
+    width: 310px;
+    font-size: 20px;
+}
+.postb ul li::marker{
+    font-size: 31px;
+}
+.feedback{
+    width: 100%;
+    height: 610px;
+    overflow-x: scroll;
+}
+.teamgrid{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 481px 481px 481px 481px 481px;
+    grid-gap: 20px; 
+    overflow-x: scroll;
+}
+.fromteam{
+    padding-top: 150px;
+    font-size: 50px;
+    width: 829px;
+    height: 68px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0px;
+}
+.teambox{
+    width: 479px;
+    height: 277px;
+    border: none;
+    background-color: rgba(153, 24, 42, 0.16);
+}
+.teamtext{
+    float: left;
+    width: 45%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.teambox img{
+    width: 22px;
+    height: 40px;
+}
+.h1{
+    width: 232px;
+    height: 145px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.teampic{
+    float: right;
+    width: 37%;
+    margin-top: 50px;
+}
+.teampic img{
+    width: 152px;
+    height: 152px;
+}
+.teampic h3{
+    width: 127px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #99182a;
+    margin-left: 10px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #555;
+}
+.footer{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+}
+.footericon{
+    background-image: url(footericon.svg);
+    height: 100%;
+    width: 15%;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footercontent{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 490px 255px 255px 255px;
+    color: white;
+}
+.footerbox1{
+    display: grid;
+    width: 20%;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.footerbox1 img{
+    width: 167px;
+    height: 34.86px;
+
+}
+.footerbox1content{
+    width: 255px;
+    height: 144px;
+
+}
+.footerbox1content{
+    width: 255px;
+    height: 260px;
+    font-size: 12px;
+    line-height: 27px;
+    color: #d9dbe1;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: lighter;
+}
+.footersocial{
+    display: grid;
+    width: 104px;
+    height: 24px;
+    grid-template-columns: 30px 30px 30px;
+}
+.ig img{
+    height: 24px;
+    width: 24px;
+}
+.footerbox2{
+    width: 255px;
+    height: 100%;
+    margin-top: 70px;
+}
+.footerbox2 ul{
+    padding-left: 0px;
+}
+.footerbox2 ul li{
+    list-style: none;
+    margin: 20px auto;
+}
+.footerbox2 ul li  a{
+    text-decoration: none;
+    color: white;
+    
+}
+.fsvg{
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.box2head{
+    font-weight: normal;
+    font-size: x-large;
+
+}
+.down{
+    display: grid;
+    grid-template-columns: 830px 470px;
+    font-weight: 100;
+    height: 70px;
+    width: 100%;
+    margin: 0px auto 0 100px;
+}
+ .allright{
+ 
+}
+ .down{
+
+}
+ .vertical{
+     border: 0;
+     margin: 0 10px 0 10px;
+     border-left: 1px solid white;
+     height: 20px;
+     width: 1px;
+}
+button{
+    cursor: pointer;
+}
